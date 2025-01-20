@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 500px;
+    height: 2px;
+    background-color: black;
+}
+
+#tablero {
+    width: 450px;
+    height: 450px;
+    /* Fondo opcional: */
+    /* background-color: gray; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.celda {
+    width: 147px;
+    height: 147px;
+
+    /* Texto */
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ganador {
+    background-color: lightgray;
+    color: red;
+}
+
+.linea-horizontal {
+    border-bottom: 3px solid black;
+}
+
+.linea-vertical {
+    border-right: 3px solid black;
+}
